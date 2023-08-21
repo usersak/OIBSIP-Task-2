@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href ="style.css">
+
+</head>
+<body>
+
+
+    <script src="js/script.js"></script>
+
+
+
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="Home" id="Home">
+        <div class="Home-content">
+            <h2>Hello,It's Me</h2>
+            <h1>Sakshi Sinha</h1>
+            <h3>And I am a <span class="multiple-text">Web Developer</span></h3>
+
+            <div class="social-media">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAtUlEQVRIS2NkoDFgpLH5DIPOAgWgj/uB2ACIQWwQ2AjEAbhCghQfCAANuQ/EIBoZHARyHKhhwQKgIfFYDKKaBQeAhtsjBUsCkP2BUCIhJYj+IxnWCGQ3EDIcJD/gFoCCQR7qUmQXg4ILhEEAFAcwNoanCPkAOdxxhQje4KKGBY6U+GACUDMoU4EALAWB2A+B+AFUvABIX8DlPUI+QNY3NFPRqA8GPicPrzjAlZfwipOS0QanBQCzsykZDgZW9QAAAABJRU5ErkJggg=="/>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABV0lEQVRIS92V/VECMRDFoQItgQ6QCjw7gArUCsAOoALsgOtA7YAOlAqECoAK8P2YhMmFzd3FmfuHndk5Jvvx8l6Spd/r2Pod9+/dHsC9JDu0kG2snKm8kG/lpXzh6oh9+h6xRCST8FMDMlNsacSpeZC/yd8tgIEWfx2Dib5rowk533KYWgbIxgGcNxkyoGgfVJX6DW1YeYPdR6I5y0c5OZfNxRIReIwaoCcO0EhuyeNLvhzApUXMoFCEnd/V7LIuBON5mBAzOP2zsS+rHDCLbSTKwUTCyg2MAQZO72FOV5e705f6ilmjgnPgEXEbcuxKHksi1l7kq5zOymX3PLKrKZAadrxEWLS1JyWureS6aYqec/lzA8qr4mUqJwUAXRggV8p4tcylZHMKQ4DCFfCSU7PGg/Fiab5t0tBiwK4Bg4W/rgwwDjAcG029z/Hb+0drRTsnqXOJ/gC/IzgZKD4sGQAAAABJRU5ErkJggg=="/>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA60lEQVRIS2NkoDFgpLH5DNgsEIBa+oEalqNb0AA0tB5qcCOQBvEpAsgWKABNuo9mmiCQT5FP6GoByPE0DSJY6NA0kh2AtvyH2vQRSF+Asg2AND+aOMgh+kAM0gNSdxGIH6CnCPRUBDMcpO4gVDOIfQCI7aGaQeKgoFwPxDDfwswFiYNSHxyQYwHIlSCD0Q2HGeoIdRCYT44F6KGAzt8IFAiACZJrAbIhCUDD5iPZAvKhIqUWGAINgCUAkFmgzAhLBCghQ64P0PUdAJoKSwSjFmBNfaNBhFJUYMugRAcRoVxKsvyAVPokuxKfBgARwkgZ7Pct+QAAAABJRU5ErkJggg=="/>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABhklEQVRIS82VgVHDMAxF2w1ggoYJChMQJoANmk4AnQA6ATABYQLYgHaClgnICDBB+Y+TOWGSODkuV3T3TxDL+l+yrY5HA9t44PyjvRHkqmwmHBvaCt1qETwKqziwroJCQQ8WuJZ/twR1JAg4EE5tcS5f+sCYAOUvAokhqjqeUaa4Z2EqnPlKYgLYLwQ2oDxlqKfaV1P+Jk+rEPdlMQG9JHFek5lNE/teWSJatBGomD0rizlqIthp4V64cgQkQSXeG2LoOQYhwiDgPL6FxxVAsBRuXCYSZfattO+F/K3A2omL7U1AItQvhDsvX39TJST+5vQmoJJr4dBa4DmoikP1Ff8/grYWher+1CJawkFyPUnIHccu7X/uv79dnVpUd01LJeKVeiM5FSIgWJIg9dAyy1TJQxobBMSEuF8vmU3nAi+xy6jwBCRNjopcQQw7lHB4KO1iJH8SOI/WYUeyQgjjGqK2cY0gLPjkuA5q2QARPgy4pko+tIAQXjr+h+3tJ7NJbe/vg1fwCW3KaRm/9ADsAAAAAElFTkSuQmCC"/>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+        <div class="Home-img">
+            <img src="file:///C:/Users/DELL/Downloads/image.jpeg"alt="">
+        </div>
+
+    </section>
+
+    <section class="About" id="About">
+        <div class="About-img">
+            <img src="file:///C:/Users/DELL/Downloads/image.jpeg"alt="">
+        </div>
+
+        <div class="About-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p><i>Welcome to my portfolio! I'm thrilled to have you explore my journey as a Computer Science and Engineering third-year student at VIT Vellore, as well as my passion for web development. My name is Sakshi Sinha, and I am dedicated to the ever-evolving world of technology and its creative applications.
+
+As a student, I have immersed myself in the diverse realm of computer science, where I've gained proficiency in a variety of programming languages including C, C++, Python, HTML, CSS, and JavaScript. My fascination with artificial intelligence and machine learning has led me to explore these exciting domains. Among my various interests, web development holds a special place. The power of the internet to connect people globally and provide immersive experiences drives my commitment to creating user-friendly and responsive websites.Thank you for visiting and taking the time to learn more about me</i></p>
+
+<a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="Skills"id="Skills">
+        <h2 class="heading">My<span>Skills</span></h2>
+        <div class="Skills-container">
+            <div class="Skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Development</h2>
+                <p><h2><em>I possess a comprehensive set of web development skills that empower me to craft engaging digital experiences. Proficient in HTML, I create well-structured foundations for web pages, which I then style with CSS to achieve visually appealing layouts and animations. My expertise extends to dynamic user interfaces developed using JavaScript and popular front-end frameworks like React and Angular. On the back end, I excel in server-side programming, employing technologies such as Node.js and Python, and leveraging frameworks like Express and Django. My familiarity with both SQL and NoSQL databases allows me to design and implement robust data systems. I'm adept at version control with Git, ensuring seamless collaboration and code management</em></h2></p>
+
+                <a href="#" class="btn">Read More</a>
+
+                
+            </div>
+
+            <div class="Skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h2>Database Management</h2>
+                <p> <h2><em>With a solid foundation in database management systems (DBMS), I excel in both SQL and NoSQL databases, including MySQL, PostgreSQL, MongoDB, and Redis. I possess a deep understanding of database architecture, allowing me to design efficient data models that facilitate seamless data retrieval and manipulation. Proficient in database querying languages such as SQL, I can construct complex queries, optimize performance, and ensure data integrity. Moreover, I am skilled in setting up database clusters, replication, and sharding for high availability and scalability. My portfolio includes projects that demonstrate my prowess in database optimization, schema design, and data migration. Through meticulous version control using Git, I ensure the seamless management and collaboration of database-related projects.</em></h2></p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="Skills-box">
+                <i class='bx bxs-paint'></i>
+                <h2>Graphic Designing </h2>
+                <p> <h2> <em>Proficient in Adobe Creative Suite, I leverage tools such as Photoshop, Illustrator, and InDesign to craft stunning visuals that effectively communicate messages. My expertise encompasses logo design, branding, typography, and layout design, ensuring a cohesive and captivating visual identity for various projects. I excel in both print and digital design, with a focus on creating aesthetically pleasing and user-friendly interfaces. I am skilled in conceptualizing and executing creative ideas, whether it's for marketing materials, social media graphics, or web design elements. My portfolio presents a collection of projects that highlight my ability to merge creativity with strategic thinking, resulting in impactful and visually engaging designs.</em> </h2></p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Portfolio"id="Portfolio">
+        <h2 class="heading">My<span>Projects</span></h2>
+        <div class="Portfolio-container">
+            <div class="Portfolio-box">
+                <h2>Web Development</h2>
+                <p><h2><em>For this project, I developed a fully functional e-commerce website from the ground up. The website offers a seamless shopping experience for users, allowing them to browse through a diverse range of products, add items to their cart, and securely complete their purchases. Leveraging HTML, CSS, and JavaScript, I crafted an intuitive user interface that prioritizes ease of navigation and aesthetic appeal. To enhance the website's performance and responsiveness, I employed modern frontend frameworks such as React and utilized RESTful APIs to facilitate dynamic content loading and updates.</em></h2></p>
+
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+             </div>
+
+             <div class="Portfolio-box">
+    
+                <h2>Database Management</h2>
+                <p> <h2><em>In this project, I designed and implemented a comprehensive database management system for an online bookstore. The goal was to create a scalable and efficient solution that would streamline inventory management, order processing, and customer interactions. Leveraging my expertise in database design and management, I meticulously crafted a relational database using MySQL to meet the specific requirements of the bookstore's operations.
+
+The database schema was designed to accommodate a wide range of product categories, authors, publishers, and customer profiles.</em></h2></p>
+
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+
+            <div class="Portfolio-box">
+    
+                <h2>Graphic Designing </h2>
+                <p> <h2> <em>I had the privilege of leading a comprehensive brand identity redesign project for a Company, a dynamic startup in the technology sector. The goal was to refresh their visual identity to better reflect their innovative solutions and resonate with their target audience. As the lead graphic designer, I applied a strategic and creative approach to revamp their brand's visual elements.
+
+Beginning with a thorough analysis of the company's mission, values, and target market, I conceptualized a modern and distinctive visual identity that aligned with their aspirations. </em></h2></p>
+
+
+                <a href="#"><i class='bx bx-link-external'></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                 <input type="email" placeholder="Email Address">
+             </div>
+             <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                 <input type="text" placeholder="Email Subject">
+             </div>
+             <textarea name="" id="" cols="30" rows="10" placeholder="Your messages"></textarea>
+             <input type="submit" value="Send Message" class="btn">
+         </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright & copy; 2023 by Sakshi Sinha| All Rights Reserved.</p><a href="#">
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+
+
+</body>
+</html>
